@@ -1,0 +1,6 @@
+##To insert data into mongoDB of Restaurants table
+db.restaurants.insertOne( { restaurantName: "greenpark", itemType: "nonveg", itemName: "handi", quantity: 100, price: "530" })
+db.restaurants.insertOne( { restaurantName: "dhaba", itemType: "veg", itemName: "mandi", quantity: 200, price: "230" })
+
+##To delete multiple rows in mongoDB
+db.restaurants.deleteMany({})
